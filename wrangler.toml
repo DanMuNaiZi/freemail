@@ -1,0 +1,24 @@
+name = "freemail"
+main = "src/worker.js"
+compatibility_date = "2026-05-18"
+
+[assets]
+directory = "public"
+
+[[d1_databases]]
+binding = "TEMP_MAIL_DB"
+database_name = "maill_free_db"
+database_id = "b78178a7-39f0-4338-8e16-4709b56f1bd2"
+
+[[r2_buckets]]
+binding = "MAIL_EML"
+bucket_name = "mail-eml"
+
+[vars]
+ADMIN_NAME = ""
+ADMIN_PASSWORD = ""
+GUEST_PASSWORD = "guest"
+JWT_TOKEN = "dfvhluhdaslufhvdv"
+JWT_TOKENGUEST_PASSWORD = "dfsfsfxzcv"
+SESSION_EXPIRE_DAYS = "365"
+MAIL_DOMAIN = ""
