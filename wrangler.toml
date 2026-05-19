@@ -8,7 +8,7 @@ directory = "public"
 [[d1_databases]]
 binding = "TEMP_MAIL_DB"
 database_name = "maill_free_db"
-database_id = "b78178a7-39f0-4338-8e16-4709b56f1bd2"
+database_id = "3b3ab5c5-42ae-456e-9fad-2c20039ecb3b"
 
 [[r2_buckets]]
 binding = "MAIL_EML"
